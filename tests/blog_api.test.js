@@ -2,7 +2,6 @@ const { test, after, beforeEach } = require('node:test');
 const assert = require('node:assert');
 const mongoose = require('mongoose');
 const supertest = require('supertest');
-const { log } = require('node:console');
 const app = require('../app');
 const helper = require('./test_helper');
 
